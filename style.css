@@ -1,3 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.menu-container{
+    color: #fff;
+    background-color: #5995DA;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    border: 1px solid #fff;;
+    width: 900px;
+    justify-content: space-around;
+    display: flex;
+}
+.link{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.login{
+    margin-left: 25px;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
@@ -16,8 +43,12 @@ li{
     margin-bottom: 10px;
 }
 a{
+    display: inline-block;
+    background-color: lightgray;
+    padding: 10px 6px;
     text-decoration: none;
     color: darkblue;
+    border-radius: 4px;
 }
 a:hover{
     color: red;
